@@ -15,7 +15,7 @@ Un plugin, ou complément, est un petit programme distinct, généralement cré�
 
 Le gestionnaire de plugins intégré permet d'installer, supprimer et mettre à jour les plugins disponibles.
 
-![La fenêtre du gestionnaire de plugins](/images/plugins/pluginsadmin/npp_pluginsadmin.png)
+![La fenêtre du gestionnaire de plugins](/images/plugins/npp_plugins_admin.png)
 
 - Le premier onglet liste les plugins existants, et permet de les installer.
 - Le deuxième onglet indique les mises à jour de plugins existantes.
