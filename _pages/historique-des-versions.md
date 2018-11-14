@@ -10,7 +10,11 @@ Cette liste recense les changements principaux d'un point de vue utilisateur. Il
 
 ## Version 7
 
-La septième version majeure de Notepad++ est la version courante, développée depuis 2016.
+La septième version majeure de Notepad++ est la version courante, développée depuis 2016. Elle est caractérisée par une version 64-bit, l'inclusion d'un gestionnaire de plugins natif](plugins.md) et de l'[aperçu de document](document-peeker.md).
+
+### version 7.6 - novembre 2018
+
+- Un [gestionnaire de plugins natif](plugins.md) est inclus par défaut afin de remplacer le [Plugin Manager](plugins/plugin-manager.md).
 
 ### version 7.5 - août 2017
 
@@ -24,7 +28,7 @@ La septième version majeure de Notepad++ est la version courante, développée 
 
 ### version 7.4 - mai 2017
 
-- Ajout de l'[aperçu de document](document-peeker.md) ayu survol d'un onglet ou du plan du document, et de son option dans les [préférences diverses](preferences/divers.md).
+- Ajout de l'[aperçu de document](document-peeker.md) au survol d'un onglet ou du plan du document, et de son option dans les [préférences diverses](preferences/divers.md).
 - Support du langage SWIFT
 
 ### version 7.3 - janvier 2017
