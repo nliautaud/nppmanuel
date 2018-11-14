@@ -4,19 +4,25 @@ title: Plugin manager
 plugin_desc: Gestionnaire de plugins
 plugin_date: 2009
 ---
-Ce [plugin](../plugins.md) est un gestionnaire de plugins. Il permet d'installer, supprimer et mettre à jour en quelques clics les plugins disponibles pour [Notepad++](../notepad++.md). Créé et développé depuis 2009 par Dave Brotherstone, il était proposé par défaut dans Notepad++ de 2009 à 2017.
-
-L'inclusion en [septembre 2016](https://github.com/bruderstein/nppPluginManager/commit/63af96b59e7105047790bed016b71d2dd709dd55) d'une publicité pour le sponsor hébergeant la liste de plugins (voir l'explication par l'auteur [Plugin Manager Sponsoring](https://bruderste.in/npp/pm/sponsor/)) a entraîné son retrait des plugins inclus par défaut à partir d'août 2017 et de la [version 7.5](../historique-des-versions.md). Un gestionnaire de plugins natif a commencé à être développé sous le nom de *Plugin Admin* (voir [commits](https://github.com/notepad-plus-plus/notepad-plus-plus/search?q=Plugin+Admin&type=Commits&utf8=%E2%9C%93)).
+Ce [plugin](../plugins.md) est un gestionnaire de plugins permettant d'installer, supprimer et mettre à jour en quelques clics les plugins disponibles pour [Notepad++](../notepad++.md), avant que le gestionnaire natif [Plugins Admin](plugins-admin.md) ne prenne sa place.
 
 Les sources du plugin, releases et informations sont disponibles sur le [projet GitHub](https://github.com/davegb3/nppPluginManager).
 
+## Historique
+
+Créé et développé depuis 2009 par Dave Brotherstone, il était proposé par défaut dans Notepad++ de 2009 à 2017.
+
+L'inclusion en [septembre 2016](https://github.com/bruderstein/nppPluginManager/commit/63af96b59e7105047790bed016b71d2dd709dd55) d'une publicité pour le sponsor hébergeant la liste de plugins (voir l'explication par l'auteur [Plugin Manager Sponsoring](https://bruderste.in/npp/pm/sponsor/)) a entraîné son retrait des plugins inclus par défaut à partir d'août 2017 et de la [version 7.5 de Notepad++](../historique-des-versions.md).
+
+Le gestionnaire de plugins natif [Plugins Admin](plugins-admin.md) à été développé à partir de février 2017 (voir [commits](https://github.com/notepad-plus-plus/notepad-plus-plus/search?o=asc&q=Plugin+Admin&s=committer-date&type=Commits)), et inclus par défaut à partir de novembre 2018 et de la [version 7.6 de Notepad++](../historique-des-versions.md).
+
 ## Installation
 
-Depuis la [version 7.5](../historique-des-versions.md) le Plugin Manager n'est plus inclus par défaut et doit être téléchargé et installé manuellement :
+> Notepad++ intègre nativement un gestionnaire de plugins [Plugins Admin](plugins-admin.md) depuis la [version 7.6](../historique-des-versions.md) qui recouvre les fonctionnalités de ce plugin.
 
 [Télécharger la dernière version](https://github.com/bruderstein/nppPluginManager/releases){:.btn-call}
 
-Décompresser l'archive, et copier son contenu (`plugins/PluginManager.dll` et `updater/gpup.exe`) dans le répertoire d'installation de Notepad++. Par exemple à l'adresse :
+Décompresser l'archive et copier son contenu (`plugins/PluginManager.dll` et `updater/gpup.exe`) dans le répertoire d'installation de Notepad++. Par exemple à l'adresse :
 
     C:\Program Files\Notepad++
 
