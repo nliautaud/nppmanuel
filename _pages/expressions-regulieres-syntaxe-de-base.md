@@ -29,7 +29,7 @@ Dans [Notepad++](notepad++.md), les expressions régulières ne sont sensibles �
 |`[...]`|Un ensemble de caractères entre crochets désigne n'importe quel caractère présent dans la liste. L'ordre des caractères n'a pas d'influence.|`[t8=#]` désigne "soit la lettre t, soit le chiffre 8, soit le signe égal, soit le caractère dièse".
 |`[^...]`|Si l'ensemble commence par un accent circonflexe alors cet ensemble est inversé et désigne n'importe quel caractère qui n'est **pas** dans la liste.|`[^rto_]` désigne "n'importe quel caractère à part les lettres r, t, o ou un tiret bas".
 |`[..-..]`|Si un tiret sépare deux lettres ou deux nombres dans un ensemble, cela désigne une plage de caractères.|`[a-z4-8]` désigne "n'importe quelle lettre minuscule ou n'importe quelle chiffre entre 4 et 8".
-|`(...)`|Les parenthèses définissent un groupe, ou sous-motif, qui peut être répété ou récupéré dans un motif de remplacement.|`a(bc)+` désigne "la lettre a puis au moins une fois le groupe de lettres ab". Cela pourrait correspondre à `abc`, `abcbc`, `abcbcbcbcbc`, etc.
+|`(...)`|Les parenthèses définissent un groupe, ou sous-motif, qui peut être répété ou récupéré dans un motif de remplacement.|`a(bc)+` désigne "la lettre a puis au moins une fois le groupe de lettres bc". Cela pourrait correspondre à `abc`, `abcbc`, `abcbcbcbcbc`, etc.
 
 Pour intégrer un accent circonflexe dans un ensemble et qu'il ne soit pas confondu avec une marque d'inversion, il ne faut pas le placer en début d'ensemble, par exemple `[a^b]` désigne "a, b ou un accent circonflexe", alors que `[^ab]` désigne "tout sauf a ou b".
 
